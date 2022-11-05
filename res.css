@@ -1,0 +1,42 @@
+@media screen and (max-width: 400px) {
+    .win{
+      padding-left: 0;
+    }
+    .win-body-list,.win-body-list-poster{
+        width: 117px !important;
+  height: 160px;
+    }
+    .overlay{
+  font-size: 10px;
+  width: 117px !important;
+
+
+    }
+    .win-head{
+        margin-left: 5%;
+    }
+   
+  }
+
+  @media screen and (max-width: 500px) {
+    #movie-sec{
+        display: block;
+        width: 90%;
+        margin: auto;
+        }
+        .movie-data-img{
+            margin: auto;
+            width: 50%;
+    
+        }
+        #movie-site-detail{
+            padding-left: 0px !important;
+        }
+        .netflixbtn{
+            width: 140px;
+        }
+       .nav-form{
+        display: block !important;
+       }
+  }
+

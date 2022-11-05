@@ -1,0 +1,131 @@
+
+  <!doctype html>
+  <html lang="en">
+    <head>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>${data[id-1].nam} - NewTube</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="res.css">
+
+ <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+
+    <style>
+     
+     
+    </style>
+    </head>
+    <body>
+  
+  
+  
+  
+  <div id="ye">
+  
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#"> <img id="nav-logo" src="logo.png" alt=""> NewTube</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Trending</a>
+          </li>
+          
+         
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn  btn-outline-dark my-2 my-sm-0  search" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  
+  
+  
+  
+  <br>
+  <div id="movie-sec" ">
+  
+  <div id="movie-site-img-div">
+  <img class="movie-data-img" src="${data[id-1].img}" alt="">
+  </div>
+  
+  
+  <div id="movie-site-detail" style="padding-left: 10px;">
+  <h2>${data[id-1].nam}</h2>
+  <p>${data[id-1].short}</p>
+  <p>${data[id-1].dis}</p><br>
+<span class="fa fa-star ${data[id-1].s1}"></span>
+<span class="fa fa-star ${data[id-1].s2}"></span>
+<span class="fa fa-star ${data[id-1].s3}"></span>
+<span class="fa fa-star ${data[id-1].s4}"></span>
+<span class="fa fa-star ${data[id-1].s5}"></span>
+  <p>Catagary - ${data[id-1].type}</p>
+  <p>Release - ${data[id-1].year}</p>
+  <p>Available in -${data[id-1].lang}</p>
+
+<br>
+  <a href="${data[id-1].link}" ><button class="btn netflixbtn btn-netflix"> Play</button></a>
+  <button class="btn netflixbtn btnplus"> + My List</button>
+  
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  
+  
+  
+  
+    </body>
+  </html>
+  <script src="script.js"></script>
+  
+  
+  `)
+
+
+
+
+
+
+
+
+
+
+
