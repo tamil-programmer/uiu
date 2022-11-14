@@ -9,6 +9,15 @@
   user-select: none; /* Standard syntax */
 
 }
+.goog-te-banner{
+  display: none !important;
+}
+.goog-logo-link{
+  display: none;
+}
+#google_translate_element{
+color: transparent !important;
+}
 body{
   background-image: url(./bg.jpg) !important;
 }
